@@ -1,0 +1,127 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background:#2F5848;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all {
+    position: relative;
+    background: #ffffff;
+    color: #2F5848;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.3);
+    min-height: 250px;
+    min-width: 350px;
+}
+
+
+h1 {
+    font: 30px sans-serif;
+    text-align: center;
+    margin: 25px 10px;
+    font-weight: bold;
+    color: #2F5848;
+}
+
+input,
+button{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+    line-height: 28px;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+button {
+    background: #DAAB29;
+    color: #000;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+#logout{
+    display: block;
+    background: #DAAB29;
+    color: #000;
+    text-decoration:none;  
+    border-radius: 3px;
+    margin-top: 10px;
+    line-height: 28px;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align:center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+}
+#logout:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.msgtext {
+    height: 230px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+    line-height: 28px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+    overflow:auto;
+}
+div#inside{
+  margin: 15px 0px;
+}
+
+#ch{
+  background:#DAAB29;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+#chh{
+    background:#2F5848;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
